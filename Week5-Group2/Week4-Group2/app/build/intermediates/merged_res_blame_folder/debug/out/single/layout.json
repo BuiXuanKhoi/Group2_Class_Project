@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_welcome.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\fragment_welcome.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_choice.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\fragment_choice.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home__screen.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\fragment_home__screen.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_signup.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\fragment_signup.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_res.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\activity_res.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_onboarding_2.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\fragment_onboarding_2.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile__screen.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\fragment_profile__screen.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_splash.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_onboarding_3.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\fragment_onboarding_3.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_onboarding_1.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\fragment_onboarding_1.xml"
+    },
+    {
+        "merged": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_login.xml",
+        "source": "E:\\Lap Trinh Android\\Android Homework\\Week5-Group2\\Week4-Group2\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    }
+]

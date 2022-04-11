@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.week2_group2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:5:5-67
+11-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:6:5-79
+12-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:7:5-81
+13-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:7:22-78
+14
+15    <supports-screens
+15-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:9:5-14:40
+16        android:anyDensity="true"
+16-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:10:9-34
+17        android:largeScreens="true"
+17-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:11:9-36
+18        android:normalScreens="true"
+18-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:12:9-37
+19        android:smallScreens="true"
+19-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:13:9-36
+20        android:xlargeScreens="true" />
+20-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:14:9-37
+21
+22    <application
+22-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:16:5-34:19
+23        android:allowBackup="true"
+23-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:17:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\transforms-3\adacc4bbdca3c037c01e5031782c646c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:18:9-43
+27        android:label="Week2-Group2"
+27-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:19:9-37
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:20:9-54
+29        android:supportsRtl="true"
+29-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:21:9-35
+30        android:testOnly="true"
+31        android:theme="@style/Theme.Week2Group2" >
+31-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:22:9-49
+32        <activity
+32-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:23:5-31:16
+33            android:name="com.example.week2_group2.Fragment.Fragment_Manager"
+33-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:24:9-50
+34            android:exported="true" >
+34-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:25:9-32
+35            <intent-filter>
+35-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:26:9-30:25
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:27:13-65
+36-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:27:21-62
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:29:13-73
+38-->E:\Lap Trinh Android\Android Homework\Week5-Group2\Week4-Group2\app\src\main\AndroidManifest.xml:29:23-70
+39            </intent-filter>
+40        </activity>
+41
+42        <uses-library
+42-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\57df4ce2d08a22f066cf859cac9a3e30\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+43            android:name="androidx.window.extensions"
+43-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\57df4ce2d08a22f066cf859cac9a3e30\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+44            android:required="false" />
+44-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\57df4ce2d08a22f066cf859cac9a3e30\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+45        <uses-library
+45-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\57df4ce2d08a22f066cf859cac9a3e30\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+46            android:name="androidx.window.sidecar"
+46-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\57df4ce2d08a22f066cf859cac9a3e30\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+47            android:required="false" />
+47-->[androidx.window:window:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\57df4ce2d08a22f066cf859cac9a3e30\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+51            android:authorities="com.example.week2_group2.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0598df94f460c67e853f90789c9d40d1\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\c4217aea2ca3d9a23241dc893df048d3\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
