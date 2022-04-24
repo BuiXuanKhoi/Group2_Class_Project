@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_food_hub"
+    app:startDestination="@id/splash">
+
+    <fragment
+        android:id="@+id/signupFragment2"
+        android:name="com.example.week2_group2.Signup.SignupFragment"
+        android:label="SignupFragment"
+        tools:layout="@layout/fragment_signup"
+        >
+        <action
+            android:id="@+id/action_signupFragment2_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/signupFragment2"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.week2_group2.Login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_menuFragment"
+            app:destination="@id/home_Screen"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"  />
+
+        <action
+            android:id="@+id/action_loginFragment_to_signupFragment2"
+            app:destination="@id/signupFragment2"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.example.week2_group2.Splash.Splash"
+        android:label="activity_splash"
+        tools:layout="@layout/fragment_splash" >
+
+        <action
+            android:id="@+id/action_splash_to_welcome2"
+            app:destination="@id/welcome2" />
+        <action
+            android:id="@+id/action_splash_to_home_Screen"
+            app:destination="@id/home_Screen"
+            app:popUpTo="@id/splash"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/onboarding_1"
+        android:name="com.example.week2_group2.Fragment.Onboarding_1"
+        android:label="Onboarding_1"
+        tools:layout="@layout/fragment_onboarding_1">
+        <action
+            android:id="@+id/action_onboarding_1_to_onboarding_2"
+            app:destination="@id/onboarding_2" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/onboarding_2"
+        android:name="com.example.week2_group2.Fragment.Onboarding_2"
+        android:label="Onboarding_2"
+        tools:layout="@layout/fragment_onboarding_2">
+        <action
+            android:id="@+id/action_onboarding_2_to_onboarding_3"
+            app:destination="@id/onboarding_3" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/onboarding_3"
+        android:name="com.example.week2_group2.Fragment.Onboarding_3"
+        android:label="fragment_onboarding_3"
+        tools:layout="@layout/fragment_onboarding_3" >
+        <action
+            android:id="@+id/action_onboarding_3_to_signupFragment2"
+            app:destination="@id/signupFragment2"
+            app:popUpTo="@id/splash"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/welcome2"
+        android:name="com.example.week2_group2.Welcome.Welcome"
+        android:label="Welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcome2_to_onboarding_1"
+            app:destination="@id/onboarding_1" />
+        <action
+            android:id="@+id/action_welcome2_to_signupFragment2"
+            app:destination="@id/signupFragment2"
+            app:popUpTo="@id/splash"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/home_Screen"
+        android:name="com.example.week2_group2.Menu.Home_Screen"
+        android:label="Home_Screen"
+        tools:layout="@layout/fragment_home__screen">
+        <action
+            android:id="@+id/action_home_Screen_to_profile_Screen"
+            app:destination="@id/profile_Screen"
+            app:popUpTo="@id/home_Screen"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_home_Screen_to_top_rated_movie2"
+            app:destination="@id/top_rated_movie2"
+            app:popUpTo="@id/home_Screen"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_home_Screen_to_upcoming_movie"
+            app:destination="@id/upcoming_movie"
+            app:popUpTo="@id/home_Screen"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/profile_Screen"
+        android:name="com.example.week2_group2.Profile_Screen"
+        android:label="Profile_Screen"
+        tools:layout="@layout/fragment_profile__screen">
+        <action
+            android:id="@+id/action_profile_Screen_to_welcome2"
+            app:destination="@id/welcome2"
+            app:popUpTo="@id/profile_Screen"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_profile_Screen_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/profile_Screen"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_profile_Screen_to_upcoming_movie"
+            app:destination="@id/upcoming_movie"
+            app:popUpTo="@id/profile_Screen"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_profile_Screen_to_top_rated_movie2"
+            app:destination="@id/top_rated_movie2"
+            app:popUpTo="@id/profile_Screen"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/top_rated_movie2"
+        android:name="com.example.week2_group2.Movie.Top_rated_movie"
+        android:label="Top_rated_movie"
+        tools:layout="@layout/fragment_top_rated_movie">
+        <action
+            android:id="@+id/action_top_rated_movie2_to_home_Screen"
+            app:destination="@id/home_Screen"
+            app:popUpTo="@id/top_rated_movie2"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_top_rated_movie2_to_upcoming_movie"
+            app:destination="@id/upcoming_movie"
+            app:popUpTo="@id/top_rated_movie2"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_top_rated_movie2_to_profile_Screen"
+            app:destination="@id/profile_Screen"
+            app:popUpTo="@id/top_rated_movie2"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_top_rated_movie2_to_movie_Detail"
+            app:destination="@id/movie_Detail" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/upcoming_movie"
+        android:name="com.example.week2_group2.Movie.Upcoming_movie"
+        android:label="Upcoming_movie"
+        tools:layout="@layout/fragment_upcoming_movie">
+        <action
+            android:id="@+id/action_upcoming_movie_to_home_Screen"
+            app:destination="@id/home_Screen"
+            app:popUpTo="@id/upcoming_movie"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_upcoming_movie_to_top_rated_movie2"
+            app:destination="@id/top_rated_movie2"
+            app:popUpTo="@id/upcoming_movie"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_upcoming_movie_to_profile_Screen"
+            app:destination="@id/profile_Screen"
+            app:popUpTo="@id/upcoming_movie"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_upcoming_movie_to_movie_Detail"
+            app:destination="@id/movie_Detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/movie_Detail"
+        android:name="com.example.week2_group2.Movie.Movie_Detail"
+        android:label="fragment_movie__detail"
+        tools:layout="@layout/fragment_movie__detail" />
+
+
+</navigation>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/top_rated_movie"
+        android:title="@string/toprated"
+        android:icon="@drawable/outline_star_rate_white_20" />
+
+    <item
+        android:id="@+id/movie_upcoming"
+        android:title="@string/upcoming"
+        android:icon="@drawable/outline_update_white_20"/>
+
+    <item
+        android:id="@+id/food_hub"
+        android:title="@string/foodhub"
+        android:icon="@drawable/outline_takeout_dining_20"/>
+
+
+    <item
+        android:id="@+id/profile"
+        android:title="@string/name_profile"
+        android:icon="@drawable/outline_supervisor_account_white_20"/>
+
+</menu>

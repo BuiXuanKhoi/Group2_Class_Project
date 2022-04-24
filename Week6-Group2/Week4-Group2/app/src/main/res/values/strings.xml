@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Food and Movie Hub</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="upcoming">Upcoming Movie</string>
+    <string name="toprated">Top Rated Movie</string>
+    <string name="foodhub">Food</string>
+    <string name="name_profile">Profile</string>
+</resources>
