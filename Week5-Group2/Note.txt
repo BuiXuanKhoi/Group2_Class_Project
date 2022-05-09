@@ -1,0 +1,31 @@
+- Sau khi qua các onboarding 1,2,3 : các lần sau sẽ không hiện nữa
+
+- Chuyển qua lại giữa 2 màn hình sign up và login bằng các nút, sẽ không lưu lại stack của màn hình trước
+
+- Thông tin tài khoản và mật khẩu của user sẽ được lưu vào trong Shared Prefences và sau đó đổ ra list khi khởi động app 
+
+- Hiển thị thông tin user sau khi đối ứng với List
+
+- Thông tin về 2 user đã nhập đã lưu vào Shared Prefences, sau khi tắt bật lại ứng dụng sẽ được lưu trở lại vào trong list của ứng dụng
+
+ây dựng ứng dụng dựa trên Navigation Component
+Các màn hình chuyển thành Fragment thay vì Activity : check
+
+Ở Home Screen, bấm nút "Back" không được hiển thị Login Screen : check
+
+Ở Profile Screen, bấm nút "SignOut" sẽ navigate tới màn hình Welcome Screen : check
+
+[Không bắt buộc] Các màn hình OnBoarding (1, 2, 3) chỉ hiện lần đầu sau khi cài đặt app. Lần sau mở
+app sẽ không hiển thị. Gợi ý: sử dụng Shared-Preferences. : check
+
+[Không bắt buộc] Lưu lại thông tin đăng nhập : check
+
+Nếu user đã đăng nhập thành công => lần sau mở app sẽ tự động navigate tới màn hình Home
+Screen : check
+
+Nếu user bấm "SignOut" => lần sau mở app sẽ tự động navigate tới màn hình Welcome Screen : check
+
+
+Đây là list data trong Shared Prefences, list này sẽ được đổ vào trong app khi khởi động
+
+- Khi khởi động ứng dụng sẽ đổ data vào app, nếu như ở sign up cập nhật thêm account mới, thông tin account sẽ được lưu thêm vào Shared Prefences và sau đó từ Shared Prefences lưu vào trong list data của app
